@@ -79,7 +79,7 @@ for i in formatted_phonebook:
 # 2. Сохраните получившиеся данные в другой файл.
 # Код для записи файла в формате CSV:
 with open("phonebook.csv", "w") as f:
-  datawriter = csv.writer(f, delimiter=',')
+  datawriter = csv.writer(f, delimiter='\n')
   
 
   datawriter.writerow(result_phonebook)
